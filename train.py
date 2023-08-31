@@ -19,9 +19,9 @@ lr_rate = 1e-5
 num_epochs = 100
 
 # Directory
-save_dir = r'D:\models'
-train_directory = r'C:\Users\Anthony\Desktop\hand'
-validation_directory = r'C:\Users\Anthony\Desktop\hand_validation'
+save_dir = r''
+train_directory = r''
+validation_directory = r''
 
 # Define transformations
 datagen = ImageDataGenerator(
@@ -76,7 +76,7 @@ def efficient_net_v2(input_shape, num_classes):
     x = layers.GlobalAveragePooling2D()(x)
     x = layers.Dropout(0.5)(x)
 
-    for width in [4096, 2048]:
+    for width in [1024, 512]:
         x = layers.Dense(width, activation='relu')(x)
         x = layers.Dropout(0.5)(x)
 

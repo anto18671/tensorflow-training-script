@@ -3,19 +3,13 @@
 This script details the process for training an image classifier using TensorFlow and the EfficientNetV2-Large architecture. Below is a comprehensive overview of the script's components.
 
 ## 📋 Table of Contents
-- [Dependencies](#-dependencies)
-- [Script Breakdown](#-script-breakdown)
-  * [Importing Libraries](#importing-necessary-libraries)
-  * [Hyperparameters & Directories](#hyperparameters-and-directories)
-  * [Data Preprocessing](#data-preprocessing)
-  * [Dataset Creation](#dataset-creation)
-  * [Class Weight Calculation](#class-weight-calculation)
-  * [EfficientNetV2 Model Definition](#efficientnetv2-model-definition)
-  * [Learning Rate Finder](#learning-rate-finder)
-  * [Training Loop](#training-loop)
-  * [Visualization](#visualization)
-- [How to Run](#-how-to-run)
-- [Note](#-note)
+- [Tensorflow Training Script](#tensorflow-training-script)
+- [Dependencies](#dependencies)
+- [Script Breakdown](#script-breakdown)
+- [How to Run](#how-to-run)
+- [Note](#note)
+
+## Tensorflow Training Script
 
 ## 📦 Dependencies
 - TensorFlow

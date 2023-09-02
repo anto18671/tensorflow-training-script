@@ -6,7 +6,6 @@ This script details the process for training an image classifier using TensorFlo
 - [Dependencies](#-dependencies)
 - [Script Breakdown](#-script-breakdown)
 - [How to Run](#-how-to-run)
-- [Note](#-note)
 
 ## 📦 Dependencies
 - TensorFlow

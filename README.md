@@ -51,7 +51,7 @@ validation_directory = r'path_to_validation_data'
 ```
 2. **Execute Script:**
 ```
-python name_of_script.py
+python train.py
 ```
 
 3. **Output:**

@@ -60,5 +60,5 @@ python name_of_script.py
 Trained models will be saved in the save_dir with the format 'model_epoch_{epoch_number}.h5'. Additionally, accuracy and loss plots for each epoch are saved in the same directory.
 ```
 
-## ⚠️ Note:
+## ⚠️ Note
 Ensure ample storage and computational capabilities, especially if you're training on high-resolution images using a comprehensive model like EfficientNetV2-Large.

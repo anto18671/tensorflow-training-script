@@ -3,13 +3,10 @@
 This script details the process for training an image classifier using TensorFlow and the EfficientNetV2-Large architecture. Below is a comprehensive overview of the script's components.
 
 ## 📋 Table of Contents
-- [Tensorflow Training Script](#tensorflow-training-script)
-- [Dependencies](#dependencies)
-- [Script Breakdown](#script-breakdown)
-- [How to Run](#how-to-run)
-- [Note](#note)
-
-## Tensorflow Training Script
+- [Dependencies](#-dependencies)
+- [Script Breakdown](#-script-breakdown)
+- [How to Run](#-how-to-run)
+- [Note](#-note)
 
 ## 📦 Dependencies
 - TensorFlow
